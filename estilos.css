@@ -1,0 +1,103 @@
+* {
+    font-family: 'Lucida Sans Unicode';
+    max-width: 900px;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    margin-top: 10px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    background-color: #f1f1f1;
+    height:200px;  
+}
+
+li {
+    border: 1px solid #555;
+    margin: 5px;
+    background-color: rgb(116, 170, 63);
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    text-align:center;
+}
+
+/* Cambia el color del elemento de la barra lateral en el hover
+ */li a:hover {
+    background-color: rgb(231, 125, 83);
+    color: #000;
+}
+
+/* Cambia el color del elemento d la barra lateral, según la página actual
+ */a.current:link, a.current:visited{
+    background-color: rgb(231, 125, 83);
+    color: #000;
+}
+
+.contenedor {
+	width: 95%;
+	border: 7px;
+    border-style: solid;
+    border-color: rgba(143, 141, 141, 0.925);
+    /* padding-left: 20px; */
+    display: flex;
+    flex-direction: column;
+       
+}
+
+#div2{   
+    border-style:  none;
+    display: flex;
+}
+
+#div3{    
+    border-style:  none;
+    display: flex;   
+}
+
+.cajaLat
+{	
+    border-style: none;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+
+.cajaInt {
+	border: 2px;
+    border-style:solid;
+    border-color: rgba(170, 168, 168, 0.925);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;    
+    background-color: rgba(236, 232, 232, 0.986);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: rgb(42, 196, 50);
+}
+
+h3{
+    color: rgb(165, 145, 34);
+}
+
